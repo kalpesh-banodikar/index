@@ -1,0 +1,221 @@
+ /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+ .row.content {height: 1500px}
+    
+ /* Set gray background color and 100% height */
+ .sidenav {
+      height:100%;
+ }
+ 
+ /* Set black background color, white text and some padding */
+ footer {
+   background-color: #555;
+   color: white;
+   padding: 15px;
+ }
+ 
+ /* On small screens, set height to 'auto' for sidenav and grid */
+ @media screen and (max-width: 767px) {
+   .sidenav {
+     height: auto;
+     padding: 15px;
+   }
+   .row.content {height: auto;} 
+ }
+
+ .carousel-inner>.item>img {
+    line-height: 1;
+
+}
+
+/*=========================================================*/
+.hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+  }
+  
+  .hovereffect .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    background-color: rgba(75,75,75,0.7);
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .hovereffect:hover .overlay {
+    background-color: rgba(48, 152, 157, 0.4);
+  }
+  
+  .hovereffect img {
+    display: block;
+    position: relative;
+  }
+  
+  .hovereffect h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    -webkit-transform: translateY(45px);
+    -ms-transform: translateY(45px);
+    transform: translateY(45px);
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .hovereffect:hover h2 {
+    -webkit-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    transform: translateY(5px);
+  }
+  
+  .hovereffect a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: cursive;
+    background-color: transparent;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    font-weight: normal;
+    margin: -52px 0 0 0;
+    padding: 62px 100px;
+  }
+  
+  .hovereffect:hover a.info {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  
+  .hovereffect a.info:hover {
+    box-shadow: 0 0 5px #fff;
+  }
+
+  /*==============================================================*/
+
+  .AB{
+      width:100%;
+}
+
+.AD{
+    width:30%;
+    float:right;
+}
+.AE{
+
+   width:30%;
+   position: absolute;;
+
+}
+AE img {
+  width:30%;
+}
+.AF{
+}
+
+/*-----------------------------------*/
+.button {
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #a2e1bc;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: -18px;
+    width: 200px;
+    height: 50px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .hovereffect[_ngcontent-c3] 
+  .overlay[_ngcontent-c3] {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    
+    transition: all 0.4s ease-in-out;
+}
+
+button, input, optgroup, select, textarea {
+  margin: 0;
+  font: inherit;
+   color: black;
+}
+
+.hovereffect[_ngcontent-c3]:hover h2[_ngcontent-c3] {
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+}
+
+.hovereffect[_ngcontent-c3] h2[_ngcontent-c3] {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-transform: translateY(45px);
+  transform: translateY(45px);
+  transition: all 0.4s ease-in-out;
+}
+
+.h2, h2 {
+  font-size: 30px;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
